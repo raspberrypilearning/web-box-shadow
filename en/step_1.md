@@ -1,59 +1,41 @@
-## Introduction
+You can use the `shadow` CSS class to add a drop shadow effect to HTML elements including `<section>`, `<div>`, `<img>` and `<blockquote>`.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+![Lorem ipsum text on a pink background with a drop shadow.](images/box-shadow.png)
 
-### What you will make
+This example adds a shadow effect to a `<blockquote>` element. 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: html
+filename: index.html
+line_numbers: false
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+<main class="page">
+  <section class="wrap">
+    <blockquote class="secondary shadow"><p>Lorem ipsum dolor sit amet.</p></blockquote>
+  </section>
+</main>
+    
+--- /code ---
 
---- /collapse ---
+You can adjust the properties of the `shadow` class in `style.css` to create different shadow effects. 
 
---- collapse ---
+--- code ---
 ---
-title: Additional information for educators
+language: css
+filename: style.css
+line_numbers: false
 ---
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+.shadow {
+   box-shadow: 5px 5px 3px 0px #888888; /* right and bottom shadow size, blur, spread and colour */
+   /*box-shadow: 5px 5px 4px 2px var(--detail);*/
+}
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+--- /code ---
 
---- /collapse ---
+![Lorem ipsum text on a pink background with a green drop shadow.](images/colour-shadow.png)
+
+**Tip:** Try creating coloured shadows using your detail colours `var(--detail)` or `var(--detail2)` to create coloured shadow effects. 
+

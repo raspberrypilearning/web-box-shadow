@@ -1,2 +1,2 @@
-right and bottom shadow size, blur, spread, and colour
+taille, flou, étendue et couleur des ombres de droite et de bas de page
 

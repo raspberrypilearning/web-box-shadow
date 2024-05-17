@@ -1,8 +1,8 @@
-You can use the `shadow` CSS class to add a drop shadow effect to HTML elements, such as `<section>`, `<div>`, `<img>`, and `<blockquote>`.
+Je kunt de `shadow` CSS class gebruiken om een slagschaduweffect toe te voegen aan HTML elementen, zoals `<section>`, `<div>`, `<img>`, en `<blockquote>`.
 
-![The text 'Lorem ipsum dolor sit amet.' on a pink background with a drop shadow.](images/box-shadow.png)
+![De tekst 'Lorem ipsum dolor sit amet.' op een roze achtergrond met een slagschaduw.](images/box-shadow.png)
 
-This example adds a shadow effect to a `<blockquote>` element.
+Dit voorbeeld voegt een schaduweffect toe aan een `<blockquote>` element.
 
 ## --- code ---
 
@@ -19,7 +19,7 @@ line_numbers: false
 
 \--- /code ---
 
-You can adjust the properties of the `shadow` class in `style.css` to create different shadow effects.
+Je kunt de eigenschappen van de `shadow` class in `style.css` aanpassen om verschillende schaduw effecten te creëren.
 
 ## --- code ---
 
@@ -35,6 +35,6 @@ box-shadow: 5px 5px 3px 0px #888888; /\* right and bottom shadow size, blur, spr
 
 \--- /code ---
 
-![The text 'Lorem ipsum dolor sit amet.' on a pink background with a green drop shadow.](images/colour-shadow.png)
+![De tekst 'Lorem ipsum dolor sit amet.' op een roze achtergrond met een groene slagschaduw.](images/colour-shadow.png)
 
 **Tip:** Try to add colour to your shadows. Use your detail colours `var(--detail)` or `var(--detail2)` to create coloured shadow effects.

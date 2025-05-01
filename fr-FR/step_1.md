@@ -38,3 +38,4 @@ box-shadow: 5px 5px 3px 0px #888888; /\* right and bottom shadow size, blur, spr
 ![Le texte 'Lorem ipsum dolor sit amet' sur un arrière-plan vert avec une ombre portée.](images/colour-shadow.png)
 
 **Tip:** Try to add colour to your shadows. Use your detail colours `var(--detail)` or `var(--detail2)` to create coloured shadow effects.
+

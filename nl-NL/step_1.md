@@ -37,4 +37,4 @@ line_numbers: false
 
 ![De tekst 'Lorem ipsum dolor sit amet.' op een roze achtergrond met een groene slagschaduw.](images/colour-shadow.png)
 
-**Tip:** Try to add colour to your shadows. Use your detail colours `var(--detail)` or `var(--detail2)` to create coloured shadow effects.
+**Tip:** Probeer kleur toe te voegen aan je schaduwen. Gebruik je detailkleuren `var(--detail)` of `var(--detail2)` om gekleurde schaduweffecten te creëren.

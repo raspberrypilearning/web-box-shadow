@@ -37,5 +37,5 @@ line_numbers: false
 
 ![文字“Lorem ipsum dolor sit amet。”在带有绿色阴影的粉色背景上](images/colour-shadow.png)
 
-\*\*提示：\*\*尝试为阴影添加颜色。 使用你的详细颜色 `var(--detail)` 或 `var(--detail2)` 来创建彩色阴影效果。
+**提示：**尝试为阴影添加颜色。 使用你的详细颜色 `var(--detail)` 或 `var(--detail2)` 来创建彩色阴影效果。
 

@@ -1,2 +1,2 @@
-right and bottom shadow size, blur, spread, and colour
+右侧和底部阴影的大小、模糊、扩散和颜色
 

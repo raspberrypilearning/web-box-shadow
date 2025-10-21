@@ -1,8 +1,8 @@
-You can use the `shadow` CSS class to add a drop shadow effect to HTML elements, such as `<section>`, `<div>`, `<img>`, and `<blockquote>`.
+你可以使用 `shadow` CSS 类为 HTML 元素添加阴影效果，例如 `<section>`、`<div>`、`<img>` 和 `<blockquote>`。
 
-![The text 'Lorem ipsum dolor sit amet.' on a pink background with a drop shadow.](images/box-shadow.png)
+![文字“Lorem ipsum dolor sit amet。”在带有阴影的粉色背景上](images/box-shadow.png)
 
-This example adds a shadow effect to a `<blockquote>` element.
+此示例为 `<blockquote>` 元素添加了阴影效果。
 
 ## --- code ---
 
@@ -19,7 +19,7 @@ line_numbers: false
 
 \--- /code ---
 
-You can adjust the properties of the `shadow` class in `style.css` to create different shadow effects.
+你可以调整 `style.css` 中 `shadow` 类的属性来创建不同的阴影效果。
 
 ## --- code ---
 
@@ -29,13 +29,13 @@ line_numbers: false
 --------------------------------------------------------
 
 .shadow {
-box-shadow: 5px 5px 3px 0px #888888; /\* right and bottom shadow size, blur, spread, and colour \*/
+box-shadow: 5px 5px 3px 0px #888888; /\* 右侧和底部阴影的大小、模糊、扩散和颜色 \*/
 /_box-shadow: 5px 5px 4px 2px var(--detail);_/
 }
 
 \--- /code ---
 
-![The text 'Lorem ipsum dolor sit amet.' on a pink background with a green drop shadow.](images/colour-shadow.png)
+![文字“Lorem ipsum dolor sit amet。”在带有绿色阴影的粉色背景上](images/colour-shadow.png)
 
-**Tip:** Try to add colour to your shadows. Use your detail colours `var(--detail)` or `var(--detail2)` to create coloured shadow effects.
+\*\*提示：\*\*尝试为阴影添加颜色。 使用你的详细颜色 `var(--detail)` 或 `var(--detail2)` 来创建彩色阴影效果。
 

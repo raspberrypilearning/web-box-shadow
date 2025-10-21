@@ -29,7 +29,7 @@ line_numbers: false
 --------------------------------------------------------
 
 .shadow {
-box-shadow: 5px 5px 3px 0px #888888; /\* right and bottom shadow size, blur, spread, and colour \*/
+box-shadow: 5px 5px 3px 0px #888888; /\* taille, flou, étendue et couleur des ombres de droite et de bas de page \*/
 /_box-shadow: 5px 5px 4px 2px var(--detail);_/
 }
 
